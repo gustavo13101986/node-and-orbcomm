@@ -1,0 +1,52 @@
+.fondo{
+    background: #f8f7f7;
+}
+
+.sombreadoBox{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+    margin-bottom: 10px;
+}
+
+.styleTitulo{
+    color: rgb(20, 77, 3);
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Roboto;
+}
+
+.texto_aviso{
+    color: rgb(2, 49, 6);
+}
+
+.title {
+    font-family: Verdana;
+    font-family: 'PT Sans'; /* Otro ejemplo */
+    color: rgb(2, 49, 6);
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    order: 5;
+  }
+
+
+
+.box-img {
+    display: flex;
+    justify-content:center;
+    padding-top: 200px;
+    padding-bottom: 250px;
+
+}
+
+
+.boxVertical {
+    display: flex;
+    justify-content: center
+  }
+
+.colorBanda {
+    background-color: rgb(223, 254, 255);
+}
