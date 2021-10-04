@@ -7,7 +7,7 @@ import { RiSensorFill } from "react-icons/ri";
 import { AiFillAlert } from "react-icons/ai";
 import AppContext from '../context/AppContext'
 import {foto_cerca} from '../utils/foto'
-import {getDataEncendido} from '../utils/encendido'
+import {getDataEncendido} from '../utils/getData'
 import {getDataPosition} from '../utils/getData'
 
 const Actions = () => {
@@ -62,8 +62,10 @@ const Actions = () => {
                     <div className="m-2">
                         <p className="mt-3 mr-2 pr-1 ml-2"> <AiFillAlert size={30}/>Encender dispositivo</p>
                     </div>
-                    <button type="button" onClick={()=>getDataEncendido(barco[bar], 6)} className="ml-auto btn btn-outline-success btn-sm align-self-center m-4">Success</button>
-                    <button type="button" onClick={()=>getDataEncendido(barco[bar], 7)} className="ml-auto btn btn-outline-success btn-sm align-self-center m-4">Success</button>
+                    <div>
+                        <button type="button" onClick={()=>getDataEncendido(barco[bar], 6)} className="ml-auto btn btn-outline-success btn-sm align-self-center m-4">On</button>
+                        <button type="button" onClick={()=>getDataEncendido(barco[bar], 7)} className="ml-auto btn btn-outline-danger btn-sm align-self-center m-4">Off</button>
+                    </div>
                 </div>
                 </div>
 
